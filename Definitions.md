@@ -13,7 +13,6 @@
 | Before Continuous Integration | After Continuous Integration | 
 |:----------|:-------------:|
 | The entire source code was built and the tested| Every commit made in the source code is built and tested.  |
-|:----------|:-------------:|
 | Developers have to wait for test results | Developers know the test result of evry commit made in the source code on the run |
-|:----------|:-------------:|
+
 | No feedback | Feedback is present | 
