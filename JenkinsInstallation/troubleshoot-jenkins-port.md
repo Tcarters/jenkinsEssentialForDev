@@ -10,5 +10,5 @@
 
 - Run: `sudo systemctl restart jenkins `
 
-- Done :joy:
+- Done :rocket:
  
