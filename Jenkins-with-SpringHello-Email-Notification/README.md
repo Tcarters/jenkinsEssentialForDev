@@ -15,8 +15,8 @@
 ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic2-Configure.png)
 
 ## Step 2.1 :  Still on same page, section Source Code Management
-- select `` Git`` and on repository the same like showing on the pic below
-- after proving your local jenkins user credntials ( username & password ) and save
+- Select `` Git`` and on repository the same like showing on the pic below
+- After proving your local jenkins user credntials ( username & password ) and save
         ![](pic3.0 )
 - Now we can select the new credentials for our job.
     ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic3.0-avant3.png)
