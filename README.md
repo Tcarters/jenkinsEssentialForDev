@@ -7,6 +7,7 @@
 
 ## What is Continuous Integration ?
 > Continuous integration is a process in which all development work is integrated as early as possible. The resulting artifacts are automatically created and tested. Thisprocess allows to identify errors as early as possible.
+![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/continuousIntegration.png)
 
 ## Comparison
 

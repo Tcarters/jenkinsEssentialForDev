@@ -1,7 +1,7 @@
 
 
 ## What is  Jenkins ?
-- Jenkins is an COntiguous integration tool used to build (compile, test) code and deploy it to the production.
+- Jenkins is a ``Contiguous Integration`` tool used to build (compile, test) code and deploy it to the production.
 - Jenkins provides hundreded of plugins to support building, deploying and automating any project.
 - It is a server-based system that runs in servlet containers such as Apache Tomcat. It supports version control tools like SVN, Git to automate build.
 
