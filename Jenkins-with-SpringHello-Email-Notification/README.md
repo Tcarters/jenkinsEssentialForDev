@@ -56,16 +56,18 @@
 - Now Test by providing your Test-email recipient ( The one who will receive email from jenkins :scream: )
 
 ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic8-Email-conf.png)
-- Voilaaa... 
+- Done ... 
 
 
 ## Now Build a failed Test
-- Try to build a fail Test to get a mail from Jenkins by putting error in our github main source code
+- Try to build a fail Test to get a mail from Jenkins by putting error in our github main source code :
 ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic9-1gitFail.png)
 
 - After jenkins build the failed test, 
-![])(https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic10-failtest.png)
+![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic10-failtest.png)
 ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic10-Fail2.png)
+
 - Now we can check our Mail box ...
 ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic9-Email-forFailBuild.png)
+
 - Voilaa, we made it :blush:... 
