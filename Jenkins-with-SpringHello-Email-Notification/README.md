@@ -45,5 +45,27 @@
 
 
 ## Configuring Email Notification
-- Manage Jenkins
-- Configure System
+- At the time of executing this mini-project, using gmail for sending email notifications is unavailable, so we have to use a third mail server provider. And in my case i use the api key of Sendinblue.com at [Sendinblue Api Key](https://app.sendinblue.com/settings/keys/smtp)
+
+- Now going on the Jenkins platform: Dashboard > Manage Jenkins > Configure System
+- On the section *E-mail Notification*, provide information as :
+  * For SMTP Server ==> put email server of sendinBlue
+  * Enable SMTP Authentication : Username = login email pof SendinBlue & Password = Master Password provided on SendinBlue 
+  * Enable port 587   
+![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic8-SendBlue.png)
+- Now Test by providing your Test-email recipient ( The one who will receive email from jenkins :scream: )
+
+![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic8-Email-conf.png)
+- Voilaaa... 
+
+
+## Now Build a failed Test
+- Try to build a fail Test to get a mail from Jenkins by putting error in our github main source code
+![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic9-1gitFail.png)
+
+- After jenkins build the failed test, 
+![])(https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic10-failtest.png)
+![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic10-Fail2.png)
+- Now we can check our Mail box ...
+![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic9-Email-forFailBuild.png)
+- Voilaa, we made it :blush:... 
