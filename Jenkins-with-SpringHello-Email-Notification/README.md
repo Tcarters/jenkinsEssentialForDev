@@ -1,6 +1,8 @@
-# Integration of SpringBoot Application with Jenkins
+# Integration of SpringBoot Application with Jenkins with Email Notification enabled
+In this demo, We build a Continuous develivery of Small SpringBoot App running on gitHub. And we try to show case with the notifiation enabled to be alerted when a fail/success arise.
+The demo goes by following below steps. Enjoy !!!
 
-## Step 1 : On Jenkins Dashboard 
+## Step 1 : Going to the Jenkins Dashboard 
 - Create a new job 
 - Enter your application name on the filed `Enter an item name` 
 - Select `` Freestyle project``
