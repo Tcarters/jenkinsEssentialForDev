@@ -1,5 +1,6 @@
 # Integrating A SpringBoot App with Jenkins and Email Notification enabled
-In this demo, We build a Continuous develivery of Small SpringBoot App running on gitHub. And we try to show case with the notifiation enabled to be alerted when a fail/success arise.
+In this demo, We build a Continuous develivery of Small SpringBoot App running on gitHub. And we try to show case the integration of a mail notification in a Jenkins Job running.
+<!-- to be alerted when a fail/success arise. -->
 The demo goes by following below steps. Enjoy !!!
 
 
@@ -12,7 +13,7 @@ The demo goes by following below steps. Enjoy !!!
 ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic1.png)
 
 ## Step 2: Next step on Configure page
-- After clicked on `ok` , you were redirected on a page for configuration 
+- After clicking on `ok` , you were redirected on a page for configuration 
 - Select GitHub project and provide this url : [Project repo](https://github.com/Tcarters/HelloSpringJenkins) , you can choose any springBoot gitHub link
 
 ![](https://github.com/Tcarters/jenkinsEssentialForDev/blob/master/Screenshots/pic2-Configure.png)
